@@ -34,7 +34,7 @@ stopwords=[]
 for line in Lines:
     stopwords.append(str(line.strip()))
     
-print(stopwords)
+#print(stopwords)
 
 def prediction(input,stopwords=stopwords):
     longest = 340
